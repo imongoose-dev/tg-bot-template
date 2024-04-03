@@ -1,0 +1,22 @@
+{
+  "name": "telegram-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "imongoose",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.11",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.2.0",
+    "path": "^0.12.7",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
